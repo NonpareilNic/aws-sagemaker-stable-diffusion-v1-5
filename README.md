@@ -55,7 +55,7 @@ For python, it's recommended to use [`pyenv`](https://github.com/pyenv/pyenv-ins
 
 For the rest, you can use a tool called [`asdf`](https://asdf-vm.com/guide/getting-started.html), which allows basically the same but for several other tools. If you have it installed, you can install the rest with just `asdf install`.
 
-To be able to clone the repo with the ML model (`stable-diffusion-v1-4/`), we will also need [`git-lfs`](https://git-lfs.github.com/) (that allows versioning of large files). The model is defined as a submodule of this repo and after attempting to clone the submodule, you will be requested to provide your huggingface account credentials in order to clone it. This it to confirm that you have accepted the license required to have access to the model weights.
+To be able to clone the repo with the ML model (`stable-diffusion-v1-5/`), we will also need [`git-lfs`](https://git-lfs.github.com/) (that allows versioning of large files). The model is defined as a submodule of this repo and after attempting to clone the submodule, you will be requested to provide your huggingface account credentials in order to clone it. This it to confirm that you have accepted the license required to have access to the model weights.
 
 And finally, [`pigz`](https://zlib.net/pigz/) is also necessary as it allows parallel gzip compression. This makes the model packaging for SageMaker run much faster.
 
@@ -73,7 +73,7 @@ bash setup.sh
 
 ## Trying the model locally
 
-To better understand how to use the model and the inference code we'll use later on, we first should try to run the model locally. Based on the [official release page](https://stability.ai/blog/stable-diffusion-public-release) you should be able to access the model weights on their [huggingface page](https://huggingface.co/CompVis/stable-diffusion-v1-4). Here we will use version `v1.4`.
+To better understand how to use the model and the inference code we'll use later on, we first should try to run the model locally. Based on the [official release page](https://stability.ai/blog/stable-diffusion-public-release) you should be able to access the model weights on their [huggingface page](https://huggingface.co/CompVis/stable-diffusion-v1-5). Here we will use version `v1.4`.
 
 > 📄 In order to have access to the weights, you have to accept their terms of use
 

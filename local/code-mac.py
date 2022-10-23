@@ -2,7 +2,7 @@
 
 from diffusers import StableDiffusionPipeline
 
-pipe = StableDiffusionPipeline.from_pretrained("../stable-diffusion-v1-4")
+pipe = StableDiffusionPipeline.from_pretrained("../stable-diffusion-v1-5")
 pipe = pipe.to("mps")
 pipe.safety_checker = lambda images, clip_input: (images, False)
 
