@@ -6,6 +6,6 @@ ADD stable-diffusion-v1-5 /app/stable-diffusion-v1-5
 ADD local/requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
 
-ADD local/code.py /app/code.py
+ADD local/serving.py /app/serving.py
 
-CMD [ "python", "code.py" ]
+CMD [ "python", "serving.py" ]

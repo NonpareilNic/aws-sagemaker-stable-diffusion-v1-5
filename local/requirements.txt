@@ -2,3 +2,5 @@ diffusers==0.4.0
 transformers==4.22.2
 ftfy==6.1.1
 Pillow==9.2.0
+sagemaker-inference==1.10.0
+sagemaker_pytorch_serving_container
