@@ -280,3 +280,4 @@ terraform.rc
 /sagemaker/output/
 /sagemaker/endpoint-name.txt
 /terraform/*.txt
+/local/stable-diffusion-v1-5/
